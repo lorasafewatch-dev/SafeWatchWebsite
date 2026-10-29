@@ -1,0 +1,14 @@
+{
+  "name": "safewatch-family-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A standalone, responsive Nature Glass showcase and install guide for SafeWatch Family.",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node --check app.js && node --check experience.js && node --check experience-model.js && node --check server.mjs && node --check scripts/build.mjs && node scripts/check.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
